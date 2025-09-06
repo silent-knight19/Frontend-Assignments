@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDashboard } from '../../context/DashboardContext';
 import Category from './Category';
 import SearchBar from './SearchBar';
@@ -7,10 +7,25 @@ import './Dashboard.css';
 
 function Dashboard() {
   const { filteredCategories, searchTerm } = useDashboard();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 10;
+      if (show !== isScrolled) {
+        setIsScrolled(show);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isScrolled]);
 
   return (
     <div className="dashboard">
-      <header className="dashboard-header">
+      <header className={`dashboard-header ${isScrolled ? 'scrolled' : ''}`}>
         <h1 style={{ fontWeight: 'bold', margin: 0 }}>CNAPP Dashboard</h1>
         <div className="header-controls">
           <HeaderActions />
