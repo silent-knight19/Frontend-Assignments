@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { DashboardProvider } from './context/DashboardContext';
+import Dashboard from './components/dashboard/Dashboard';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <DashboardProvider>
+      <div className="App">
+        <Dashboard />
+      </div>
+    </DashboardProvider>
+  );
 }
 
-export default App
+export default App;
