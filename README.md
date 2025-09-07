@@ -35,7 +35,7 @@ So, what are you waiting for? Start building your own customizable dashboard tod
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/dashboard-app.git
+   git clone https://github.com/silent-knight19/Frontend-Assignments/
    cd dashboard-app/dashboard
    ```
 
