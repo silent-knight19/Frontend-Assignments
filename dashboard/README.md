@@ -1,5 +1,8 @@
-# Dashboard Application
+# 🌐 Live Demo
 
+[Visit the Dashboard Application](https://frontend-assignmet-dashboard.netlify.app/)
+
+# Dashboard Application
 
 The Dashboard Application is a modern web application designed to provide an interactive and customizable dashboard for data visualization. Built with React, Vite, and Tailwind CSS, it offers a user-friendly interface for displaying various chart components and widgets.
 
@@ -13,29 +16,31 @@ So, what are you waiting for? Start building your own customizable dashboard tod
 
 ## ✨ Features
 
-- **Interactive Dashboard**: Drag-and-drop interface for organizing widgets
-- **Multiple Chart Types**: Support for various chart visualizations
-- **Responsive Design**: Works on desktop and tablet devices
-- **Customizable Layout**: Add, remove, and rearrange widgets as needed
-- **Real-time Data**: Supports dynamic data updates
-- **Dark/Light Mode**: Toggle between different themes
+* **Interactive Dashboard**: Drag-and-drop interface for organizing widgets
+* **Multiple Chart Types**: Support for various chart visualizations
+* **Responsive Design**: Works on desktop and tablet devices
+* **Customizable Layout**: Add, remove, and rearrange widgets as needed
+* **Real-time Data**: Supports dynamic data updates
+* **Dark/Light Mode**: Toggle between different themes
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm (v7 or higher) or yarn
+* Node.js (v16 or higher)
+* npm (v7 or higher) or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/dashboard-app.git
    cd dashboard-app/dashboard
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -43,6 +48,7 @@ So, what are you waiting for? Start building your own customizable dashboard tod
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    # or
@@ -80,21 +86,21 @@ src/
 
 ## 📦 Dependencies
 
-- **React** - JavaScript library for building user interfaces
-- **Vite** - Next Generation Frontend Tooling
-- **Tailwind CSS** - Utility-first CSS framework
-- **Chart.js** - Simple yet flexible JavaScript charting
-- **Recharts** - Composable charting library built on React
-- **Lucide React** - Beautiful & consistent icons
+* **React** - JavaScript library for building user interfaces
+* **Vite** - Next Generation Frontend Tooling
+* **Tailwind CSS** - Utility-first CSS framework
+* **Chart.js** - Simple yet flexible JavaScript charting
+* **Recharts** - Composable charting library built on React
+* **Lucide React** - Beautiful & consistent icons
 
 ## 🔧 Development
 
 ### Available Scripts
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview the production build locally
-- `npm run lint` - Run ESLint for code quality checks
+* `npm run dev` - Start the development server
+* `npm run build` - Build for production
+* `npm run preview` - Preview the production build locally
+* `npm run lint` - Run ESLint for code quality checks
 
 ### Code Style
 
@@ -108,12 +114,12 @@ yarn lint
 
 ## 🙏 Acknowledgments
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Chart.js](https://www.chartjs.org/)
-- [Recharts](https://recharts.org/)
-- [Lucide Icons](https://lucide.dev/)
+* [React](https://reactjs.org/)
+* [Vite](https://vitejs.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Chart.js](https://www.chartjs.org/)
+* [Recharts](https://recharts.org/)
+* [Lucide Icons](https://lucide.dev/)
 
 ---
 
